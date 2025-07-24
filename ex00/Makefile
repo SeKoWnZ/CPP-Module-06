@@ -6,11 +6,11 @@
 #    By: jose-gon <jose-gon@student.42malaga.com>   +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2025/04/29 20:27:42 by jose-gon          #+#    #+#              #
-#    Updated: 2025/07/08 11:21:43 by jose-gon         ###   ########.fr        #
+#    Updated: 2025/07/22 10:00:01 by jose-gon         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = Bureaucrat
+NAME = convert
 
 CFLAGS = -Wall -Wextra -Werror -std=c++98
 
@@ -18,7 +18,7 @@ SRC_DIR = src
 OBJ_DIR = obj
 INC_DIR = ./include
 
-FILES = 
+FILES = main.cpp ScalarConverter.cpp
 OBJ_FILES = $(addprefix $(OBJ_DIR)/, $(FILES:.cpp=.o))
 
 all : $(NAME)
