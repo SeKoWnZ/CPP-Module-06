@@ -6,7 +6,7 @@
 /*   By: jose-gon <jose-gon@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/24 15:21:06 by jose-gon          #+#    #+#             */
-/*   Updated: 2025/07/24 15:46:59 by jose-gon         ###   ########.fr       */
+/*   Updated: 2025/07/29 22:25:57 by jose-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,8 +23,8 @@ class Serializer
 		Serializer(const Serializer &other);
 		Serializer &operator=(const Serializer &other);
 	public:
-		uintptr_t serialize(Data* ptr);	
-		
+		static	uintptr_t serialize(Data* ptr);	
+		static	Data * deserialize(uintptr_t raw);
 };
 
 #endif
