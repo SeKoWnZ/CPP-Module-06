@@ -6,7 +6,7 @@
 /*   By: jose-gon <jose-gon@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/07/30 17:26:59 by jose-gon          #+#    #+#             */
-/*   Updated: 2025/08/04 19:16:25 by jose-gon         ###   ########.fr       */
+/*   Updated: 2025/08/06 17:14:37 by jose-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,12 +17,11 @@ class Base
 {
 	public:
 		virtual ~Base();
-		
 };
 	
 Base * generate(void);
 void identify(Base* p);
-//void identify(Base& p);
+void identify(Base& p);
 
 #endif
 	

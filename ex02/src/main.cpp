@@ -6,7 +6,7 @@
 /*   By: jose-gon <jose-gon@student.42malaga.com>   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/08/04 19:15:41 by jose-gon          #+#    #+#             */
-/*   Updated: 2025/08/04 19:24:02 by jose-gon         ###   ########.fr       */
+/*   Updated: 2025/08/06 17:12:36 by jose-gon         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,8 +14,9 @@
 
 int main()
 {
-	Base * test;
+	Base* test;
 
 	test = generate();
 	identify(test);
+	identify(*test);
 }
